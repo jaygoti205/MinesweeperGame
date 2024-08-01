@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 1px solid black;
+    margin: 10px;
+}
+
+#gameLevel {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    padding: 15px;
+    border-bottom: 2px solid black;
+}
+
+.btn {
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 10px;
+    padding: 5px;
+}
+
+#timerLabel,
+#minesLabel {
+    background-color: rgb(167, 42, 42);
+    color: rgb(251, 251, 251);
+    padding: 5px;
+    border: 2px solid black;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    width: 30px;
+    text-align: right;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+#customPanel {
+    padding: 10px;
+    border-bottom: 2px solid black;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+#customPanel input {
+    width: 40px;
+    padding: 2px;
+    border: 2px solid black;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+#customPanel .btn {
+    font-size: 15px;
+    padding: 2px;
+    margin-left: 5px;
+}
+
+#tbl {
+    height: auto;
+    width: auto;
+    border: 2px solid black;
+    margin-top: 10px;
+}
+
+td {
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid rgb(0, 0, 0);
+    font-size: 16px;
+}
+
+.boxCover {
+    background-color: rgba(58, 173, 98, 0.819);
+    font-size: 0;
+}
+
+#gameMsg {
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+#replayBtn {
+    display: none;
+}
